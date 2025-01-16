@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.container__lista li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 30px 20px;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 14px;
+}
+
+.container__lista{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.container__lista h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto__preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+.produto__descricao{
+	font-size: 18px;
+}
+
+main{
+	padding: 50px 0;
+}
+
+nav a:hover{
+	color: #c78c19;
+}
+
+.container__lista li:hover{
+	border-color: #c78c19;
+}
+
+.container__lista li:active{
+	border-color: bisque;
+}
+
+.container__lista li:hover h2{
+	font-size: 34px;
+}
+
+.rodape__principal{
+	background: #000000;
+	padding: 40px 0;
+}
+.rodape{
+	text-align: center;
+	color: white;
+}
+
+main{
+	width: 940px;	
+	margin: 0 auto;
+}
+
+form label, form p{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display:block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+ margin: 20px 0;
+}
+
+.select_{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	border-radius: 15px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background-color: rgb(3, 5, 95);
+	color: rgb(255, 255, 255);
+	transform: scale(1.1);
+}	
+
+main input{
+	border-radius: 8px;
+}
+
+.enviar:active{
+	background-color: #8b97ff;
+}
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
